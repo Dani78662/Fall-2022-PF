@@ -1,0 +1,16 @@
+START
+Print "Enter Date of Birth"
+Read input---->DOB
+Print "Enter Date of Month"
+Read input---->DOM
+Print "Enter Date of Year"
+Read input---->DOY
+Print "Enter Current Date of Birth"
+Read input---->CD
+Print "Enter Current Date of Mont"
+Read input---->CM
+Print "Enter Current Date of Year"
+Read input---->CY
+A<-----DOB + DOM + DOY * CD + CM + CY
+Print A
+END
