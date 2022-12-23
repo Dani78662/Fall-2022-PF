@@ -1,0 +1,20 @@
+START
+Print "Enter Traveller Gender"
+Read input---->g
+Print "Enter Traveller Age"
+Read input---->a
+Print "Enter Traveller Distance"
+Read input---->d
+if g=male and a > 18
+F = 10 + {5*(d-5)}
+Print F
+Else if g=male and a < 18
+F = 5 + {3*(d-5)}
+Print F
+Else if g=female and a > 16
+F = 10 + {5*(d-5)}
+Print F
+Else if g=female and a > 16
+F = 5 + {3*(d-5)}
+Print F
+END
