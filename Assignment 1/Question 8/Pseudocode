@@ -1,0 +1,7 @@
+START
+Print "Enter Number"
+If n!=0
+Print "Invalid Output"
+Else Mean<---Sum + Average
+Print "Mean"
+END
