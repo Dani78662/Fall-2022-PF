@@ -1,0 +1,12 @@
+START
+Print "Enter number"
+Read input-----> n
+Print "Enter Sum"
+Sum=0
+i=0
+Sum<----Sum + n
+If n % s = 1
+Print "Perfect number"
+Else n % s = 0
+Print "Not Perfect number"
+END
