@@ -1,0 +1,13 @@
+START
+Print "Enter Number"
+Read Input---->n
+Print "Enter First Digit"
+Read input----->a
+Print "Enter Second Digit"
+Read input----->b
+Print "Enter Third Digit"
+Read input----->c
+P<---- a * b * c
+Print "Persistence"
+Print P
+END
