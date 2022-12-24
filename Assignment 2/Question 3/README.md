@@ -8,22 +8,22 @@ Print "Enter Number"
 Read input-----> n
 
 
-While i>0 <_____     
+While i>0
 
 
-i--->n-1       |
+i--->n-1       
 
 
-sum--->0       |
+sum--->0       
 
 
-Else j>i       |
+Else j>i       
 
 
-j---->i-1      |
+j---->i-1      
 
 
-sum++__________|
+sum++
 
 
 Print "Factorial"
