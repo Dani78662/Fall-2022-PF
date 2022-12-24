@@ -5,19 +5,19 @@ START
 Print "Enter Number"
 
 
-If i<=n <_______         
-                |
-                |
-Else if j<=i    |
-                |
-                |
-Print i         |
-                |
-                |
-j++             |
-                |
-                |
-i++_____________|
+If i<=n        
+                
+                
+Else if j<=i    
+                
+                
+Print i         
+                
+                
+j++             
+                
+                
+i++
 
 
 Print *
