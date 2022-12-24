@@ -1,8 +1,0 @@
-START
-Print "Enter Number"
-Read input----->n
-Sum=0
-i=0
-Sum<----Sum + n
-i<---i++
-END
