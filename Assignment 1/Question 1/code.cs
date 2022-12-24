@@ -16,6 +16,8 @@ namespace ConsoleApp11
             sum = mile * 1.609;
             sum1 = sum / 3600;
             km = sum1;
-            Console.WriteLine("Speed in KiloMeter:" + km);
-            Console.ReadLine();
-            Console.ReadKey();
+            Console.WriteLine("Speed in KiloMeter:" + km);           
+   Console.ReadKey();
+        }
+    }
+}
