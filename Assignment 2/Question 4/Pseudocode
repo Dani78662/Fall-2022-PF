@@ -1,8 +1,0 @@
-START
-Print "Enter number"
-Read input----> n
-for i<=n , i++
-If i != j && i % j==0
-Print "Twin Prime numbers"
-Else "Not Twin Prime numbers"
-END
