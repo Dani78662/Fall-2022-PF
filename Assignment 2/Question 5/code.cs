@@ -14,7 +14,7 @@ namespace ConsoleApp6
             Console.WriteLine("Enter number");
             int n = Convert.ToInt32(Console.ReadLine());
 
-            int a = 0;
+            int a = 1;
             int b = 1;
             int c;
             while (i < n)
