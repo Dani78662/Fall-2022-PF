@@ -1,5 +1,4 @@
- Console.WriteLine("Enter floor 0-9");
-            int n=Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Enter 7 digits");
             int d=Convert.ToInt32(Console.ReadLine());
             if (d == 1111110)
