@@ -10,13 +10,19 @@ Read input----->n
 
 Sum=0
 
+mod=0
 
-while (n!=0)
+
+while (n>0)
 
 
-Sum += n%10
+mod = n%10
 
-n/10
+
+sum=mod+sum
+
+
+n=n/10
 
 
 Print sum
