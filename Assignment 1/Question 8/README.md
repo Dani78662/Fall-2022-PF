@@ -2,16 +2,28 @@
 START
 
 
-Print "Enter Number"
+Print "Enter value of n"
 
 
-If n!=0
+Read input<--n
 
 
-Print "Invalid Output"
+while i<=n
 
 
-Else Mean<---Sum + Average
+Print "Enter number"
+
+
+Read input <--- userinput
+
+
+sum += userinput
+
+
+i++
+
+
+mean = (mean) sum/n
 
 
 Print "Mean"
@@ -20,4 +32,6 @@ Print "Mean"
 END
 
 # FLOWCHART
-![WhatsApp Image 2022-12-23 at 8 49 31 PM](https://user-images.githubusercontent.com/117601111/209444528-80a956fc-258e-4fd4-9600-5ab3d14875b4.jpeg)
+![WhatsApp Image 2023-01-02 at 6 25 35 PM](https://user-images.githubusercontent.com/117601111/210237523-a841724e-0383-47d7-a37d-96dd52e60090.jpeg)
+
+
