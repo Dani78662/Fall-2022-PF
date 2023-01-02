@@ -1,63 +1,51 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+ char G;
+            Console.WriteLine("Enter gender");
+            G = Convert.ToChar(Console.ReadLine());
 
-namespace ConsoleApp1
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-char g;
-            Console.WriteLine("Choose between male of female");
-            g = Convert.ToChar(Console.ReadLine());
-
-            switch (g)
+            switch (G)
             {
                 case 'M':
                     Console.WriteLine("Enter Age:");
-                    int n = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine(" Distance is:");
-                    int s = Convert.ToInt32(Console.ReadLine());
-                    if (n > 0)
+                    int a = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine(" Enter distance");
+                    int d = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter fair for adult: 10 ");
+                    int fa = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter fair for minor: 5 ");
+                    int fm = Convert.ToInt32(Console.ReadLine());
+
+                    if (a >= 18)
                     {
-                        Console.WriteLine(" Valid Number ");
+                        int tf = fa + (3 * d);
+                        Console.WriteLine("The fare is " + tf);
                     }
                     else
                     {
-                        Console.WriteLine(" Invalid Number ");
-                    }
-                    if (n >= 18)
-                    {
-                        int fare = 10 + (3 * s);
-                        Console.WriteLine("The fare is " + fare);
-                    }
-                    else
-                    {
-                        int fare = 5 + (3 * s);
-                        Console.WriteLine("The fare is " + fare);
+                        int tf = fm + (3 * d);
+                        Console.WriteLine("The fare is " + tf);
                     }
                     break;
                 case 'F':
                     Console.WriteLine("Enter Age:");
-                    int f = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine(" Distance is:");
-                    int s1 = Convert.ToInt32(Console.ReadLine());
-                    if (f >= 16)
+                    int a2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine(" Enter distance");
+                    int d2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter fair for adult: 10 ");
+                    int fa2 = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter fair for minor: 5 ");
+                    int fm2 = Convert.ToInt32(Console.ReadLine());
+
+
+                    if (a2 >= 16)
                     {
-                        int fare = 5 + (3 * s1);
-                        Console.WriteLine("The fare is " + fare);
+                        int tf = fa2 + (3 * d2);
+                        Console.WriteLine("The fare is " + tf);
                     }
                     else
                     {
-                        int fare = 10 + (3 * s1);
-                        Console.WriteLine("The fare is " + fare);
+                        int tf = fm2 + (3 * d2);
+                        Console.WriteLine("The fare is " + tf);
                     }
                     break;
             }
             Console.ReadKey();
-        }
-    }
-}
