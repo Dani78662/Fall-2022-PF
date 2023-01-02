@@ -1,10 +1,18 @@
 
-            Console.WriteLine("Enter a number to calculate its factorial:");
-            int num = int.Parse(Console.ReadLine());
-            int factorial = 1;
-            for (int i = 1; i <= num; i++)
+            Console.Write("Input the number : ");
+            int num = Convert.ToInt32(Console.ReadLine());
+            int ans = num;
+            for (int i = num - 1; i > 0; i--)
             {
-                factorial = factorial + (factorial * (i - 1));
+                int sum = 0;
+
+                
+                for (int j = 0; j < i; j++)
+                    sum += ans;
+
+                ans = sum;
+                
             }
-            Console.WriteLine("The factorial of " + num + " is " + factorial);
+            Console.WriteLine("The Factorial is", ans);
+
             Console.ReadKey();
