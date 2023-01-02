@@ -3,7 +3,7 @@
             {
                 Console.WriteLine("Enter a number: ");
                 int n = int.Parse(Console.ReadLine());
-                int persistence = 0;
+                int p = 0;
                 while (n > 9)
                 {
                     int result = 1;
@@ -12,7 +12,7 @@
                         result = int.Parse(c.ToString());
                     }
                     n = result;
-                    persistence++;
+                    p++;
                 }
-                return persistence;
+                return p;
             }
