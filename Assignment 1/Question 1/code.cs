@@ -11,13 +11,13 @@ namespace ConsoleApp11
         static void Main(string[] args)
         {
             
-            double mile, km, ans;
+            double s, kms, ans;
             Console.WriteLine("Enter speed in Miles");
-            mile = Convert.ToInt32(Console.ReadLine());
+            s = Convert.ToInt32(Console.ReadLine());
             ans = mile * 1.609/3600;
             
-            km = ans;
-            Console.WriteLine("Speed in KiloMeter:" + km);
+            kms = ans;
+            Console.WriteLine("Speed in KiloMeter:" + kms);
             Console.ReadKey();
         }
     }
