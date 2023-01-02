@@ -1,18 +1,22 @@
-Console.WriteLine("Enter Number");
-            int n= Convert.ToInt32(Console.ReadLine());
-            for (int i = 1; i <= n; i++)
+  int  sum = 0;
+            Console.WriteLine("enter the Number");
+            int n = int.Parse(Console.ReadLine());
+            
+            for (int i = 1; i < n; i++)
             {
-                int sum = 0;
-                for (int j = 1; j < i; j++)
+                if (n % i == 0)
                 {
-                    if (i % j == 0)
-                    {
-                        sum += j;
-                    }
+                    sum = sum + i;
                 }
-                if (sum == i)
-                {
-                    Console.WriteLine(i);
-                }
+            }
+            if (sum == n)
+            {
+                Console.WriteLine("\n  perfect number");
+                Console.ReadLine();
+            }
+            else
+            {
+                Console.WriteLine("\n  not a perfect number");
+                Console.ReadLine();
             }
             Console.ReadKey();
