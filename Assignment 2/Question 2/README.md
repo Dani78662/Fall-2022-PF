@@ -32,4 +32,6 @@ Print "Not Perfect number"
 END
 
 # FLOWCHART
-![dadadada (2)](https://user-images.githubusercontent.com/117601111/210229446-1534c30a-6528-46fc-a8a8-c4dc4d57f82f.jpg)
+![WhatsApp Image 2023-01-02 at 5 14 18 PM](https://user-images.githubusercontent.com/117601111/210229950-1db6274a-6b74-4364-92bf-15e3adf3ee29.jpeg)
+
+
