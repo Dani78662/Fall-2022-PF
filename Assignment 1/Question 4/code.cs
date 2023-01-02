@@ -1,3 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
 char g;
             Console.WriteLine("Choose between male of female");
             g = Convert.ToChar(Console.ReadLine());
@@ -5,7 +17,7 @@ char g;
             switch (g)
             {
                 case 'M':
-                    Console.WriteLine("Age is:");
+                    Console.WriteLine("Enter Age:");
                     int n = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine(" Distance is:");
                     int s = Convert.ToInt32(Console.ReadLine());
@@ -29,7 +41,7 @@ char g;
                     }
                     break;
                 case 'F':
-                    Console.WriteLine("Age is:");
+                    Console.WriteLine("Enter Age:");
                     int f = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine(" Distance is:");
                     int s1 = Convert.ToInt32(Console.ReadLine());
