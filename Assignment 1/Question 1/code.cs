@@ -10,14 +10,15 @@ namespace ConsoleApp11
     {
         static void Main(string[] args)
         {
-            double mile, km, sum, sum1;
+            
+            double mile, km, ans;
             Console.WriteLine("Enter speed in Miles");
             mile = Convert.ToInt32(Console.ReadLine());
-            sum = mile * 1.609;
-            sum1 = sum / 3600;
-            km = sum1;
-            Console.WriteLine("Speed in KiloMeter:" + km);           
-   Console.ReadKey();
+            ans = mile * 1.609/3600;
+            
+            km = ans;
+            Console.WriteLine("Speed in KiloMeter:" + km);
+            Console.ReadKey();
         }
     }
 }
