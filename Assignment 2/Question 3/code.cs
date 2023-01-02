@@ -13,6 +13,6 @@
                 ans = sum;
                 
             }
-            Console.WriteLine("The Factorial is", ans);
+            Console.WriteLine("The Factorial is" + ans);
 
             Console.ReadKey();
