@@ -11,14 +11,15 @@ Read input----->n
 Sum=0
 
 
-i=0
+while (n!=0)
 
 
-Sum<----Sum + n
+Sum += n%10
+
+n/10
 
 
-i<---i++
-
+Print sum
 
 END
 
