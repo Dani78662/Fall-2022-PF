@@ -8,28 +8,24 @@ Print "Enter Number"
 Read input-----> n
 
 
-While i>0
-
-
-i--->n-1       
+for i=n-1    
 
 
 sum--->0       
 
 
-Else j>i       
+for j<i       
 
 
-j---->i-1      
+sum+=ans
+
+ans=sum
 
 
-sum++
+Print "Factorial is"
 
 
-Print "Factorial"
-
-
-Print F
+Print ans
 
 
 END
