@@ -11,7 +11,7 @@ Read input-----> n
 Sum=0
 
 
-if n%i==0
+if n%i ==0
 
 
 Sum<----Sum + i
