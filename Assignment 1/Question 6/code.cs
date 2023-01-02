@@ -6,6 +6,6 @@ Console.Write("Input  a number(integer): ");
                 sum += n % 10;
                 n /= 10;
             }
-            Console.WriteLine("Sum of the digits of the said integer: " + sum);
+            Console.WriteLine("Sum is: " + sum);
         
            Console.ReadKey();
