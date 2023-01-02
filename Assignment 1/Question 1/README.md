@@ -2,25 +2,15 @@
 START
 
 
-Print "Enter miles per hour"
+Print "Enter speed"
 
 
-Read input--->mph
+Read input--->s
 
 
-Print "Enter Kilometers per hour"
+ans = s * 1.609/3600
 
-
-Read input--->kmh
-
-
-Print "Enter Time"
-
-
-Read input--->t
-
-
-kms<----mph * kmh/t
+km = ans
 
 
 Print "Kilometer per second"
@@ -33,4 +23,4 @@ END
 
 
 # FLOWCHART
-![WhatsApp Image 2022-12-23 at 8 49 26 PM](https://user-images.githubusercontent.com/117601111/209443894-4f05e7ca-252b-455e-a946-882c9949b26c.jpeg)
+![WhatsApp Image 2023-01-02 at 5 51 43 PM](https://user-images.githubusercontent.com/117601111/210233837-56f70d24-5944-4b06-bcde-f9fcfb077e78.jpeg)
