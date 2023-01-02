@@ -4,22 +4,18 @@ START
 
 Print "Enter Number"
 
-
-If i<=n        
-                
-                
-Else if j<=i    
-                
-                
-Print i         
-                
-                
-j++             
-                
-                
-i++
+Read input<---n
 
 
+int z=n-1
+
+
+for i<=n        
+                
+                
+for j<=i    
+                
+              
 Print *
 
 
