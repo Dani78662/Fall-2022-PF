@@ -10,8 +10,8 @@ namespace ConsoleApp7
     {
         static void Main(string[] args)
         {
-            int n, i, j, m;
-            char alp = 'a';
+           int n, i, j;
+            
             Console.WriteLine("Enter Number");
             n = Convert.ToInt32(Console.ReadLine());
             int z = n - 1;
@@ -20,11 +20,12 @@ namespace ConsoleApp7
             {
                 for (j = 1; j <= i; j++)
                 {
-                    Console.Write(i);
+                    Console.Write("*");
                 }
                 Console.WriteLine();
             }
-             Console.ReadKey();
+            
+            Console.ReadKey();
         }
     }
 }
