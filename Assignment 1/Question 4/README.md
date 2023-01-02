@@ -20,40 +20,40 @@ Print "Enter Traveller Distance"
 Read input---->d
 
 
-if g=male and a > 18
+if g=male and a >= 18
 
 
-F = 10 + {5*(d-5)}
+tf = fa + (3*d)
 
 
-Print F
+Print tf
 
 
 Else if g=male and a < 18
 
 
-F = 5 + {3*(d-5)}
+tf = fm + (3*d)
 
 
-Print F
-
-
-Else if g=female and a > 16
-
-
-F = 10 + {5*(d-5)}
-
-
-Print F
+Print tf
 
 
 Else if g=female and a > 16
 
 
-F = 5 + {3*(d-5)}
+tf2 = fa2 + (3 * d2);
 
 
-Print F
+Print tf
+
+
+Else if g=female and a > 16
+
+
+tf = fm2 + (3 * d2);
+
+
+Print tf
 
 
 END
