@@ -1,25 +1,19 @@
- for (int i = 3; i <= 3000; i++)
+ for (int i = 3; i < 3000; i++)
             {
-                if (IsPrime(i) && IsPrime(i + 2))
+                if (Prime(i) && Prime(i + 2))
                 {
                     Console.WriteLine($"({i}  {i + 2})");
                 }
             }
             Console.ReadKey();
         }
-        static bool IsPrime(int number)
+        static bool Prime(int n)
         {
-            if (number < 2) return false;
-            if (number == 2) return true;
-            if (number % 2 == 0) return false;
-            for (int i = 3; i <= Math.Sqrt(number); i += 2)
+           
+            if (n == 2) return true;
+           
+            for (int i = 3; i <= Math.Sqrt(n); i += 2)
             {
-                if (number % i == 0) return false;
+                if (n % i == 0) return false;
             }
             return true;
-            
-           
-        }
-
-    }
-}
