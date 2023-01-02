@@ -1,21 +1,18 @@
-int main()
+ int userInput;
+            int n, i = 1;
+            float mean, sum = 0;
+            Console.WriteLine("Enter the value of n");
+            n = Convert.ToInt32(Console.ReadLine());
+            while (i <= n)
             {
-                float mean;
-                int sum, i;
-                Console.WriteLine("Enter number");
-                int n = Convert.ToInt32(Console.ReadLine());
-                int[] arr = new int[n];
-
-                sum = 0;
-
-                for (i = 0; i < n; i++)
-                {
-                    sum += arr[i];
-                }
-
-                Console.WriteLine("Mean = %d ", sum / (float)n);
-
-                return 0;
-
+                Console.WriteLine("Enter the " + i + " number");
+                userInput = Convert.ToInt32(Console.ReadLine());
+                sum += userInput;
+                ++i;
             }
+            mean = (float)sum / (n);
+            Console.WriteLine("The Mean is ");
+            Console.Write(mean);
+
+
             Console.ReadKey();
