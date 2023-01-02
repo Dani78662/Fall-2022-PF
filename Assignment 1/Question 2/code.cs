@@ -12,7 +12,7 @@ namespace ConsoleApp11
         {
  Console.WriteLine(" Enter a number :");
             int n = Convert.ToInt32(Console.ReadLine());
-            if (n < 0)
+            if (n <= 0)
             {
                 Console.WriteLine("Invalid Input");
             }
