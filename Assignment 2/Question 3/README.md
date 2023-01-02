@@ -31,4 +31,4 @@ Print ans
 END
 
 # FLOWCHART
-![WhatsApp Image 2022-12-23 at 8 49 46 PM](https://user-images.githubusercontent.com/117601111/209444772-12b9fc16-34b2-4925-aafe-921346ea91f2.jpeg)
+![WhatsApp Image 2023-01-02 at 5 14 19 PM](https://user-images.githubusercontent.com/117601111/210230097-4fec7ecb-97e4-488e-8667-29cdb1bf3c8e.jpeg)
