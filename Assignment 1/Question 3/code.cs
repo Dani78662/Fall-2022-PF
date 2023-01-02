@@ -2,14 +2,14 @@
             Console.WriteLine("Enter gender");
             G = Convert.ToChar(Console.ReadLine());
 
-            switch (gender)
+            switch (G)
             {
                 case 'M':
-             
-              
+
+                    
                     Console.WriteLine("Enter Age:");
                     int age = Convert.ToInt32(Console.ReadLine());
-                    if (G==M || age >= 18)
+                    if ( age >= 18)
                     {
                         Console.WriteLine(" The male is adult ");
                     }
@@ -19,10 +19,10 @@
                     }
                     break;
                 case 'F':
-              
+
                     Console.WriteLine("Enter Age:");
-                    int age = Convert.ToInt32(Console.ReadLine());
-                    if (G==F || age >= 16)
+                    int age2 = Convert.ToInt32(Console.ReadLine());
+                    if ( age2 >= 16)
                     {
                         Console.WriteLine(" The female is adult ");
                     }
@@ -33,6 +33,3 @@
                     break;
             }
             Console.ReadKey();
-        }
-    }
-}
