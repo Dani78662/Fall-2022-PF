@@ -4,10 +4,10 @@
 
             switch (gender)
             {
-                case 'M':
-                    Console.WriteLine("Age is:");
-                    int n = Convert.ToInt32(Console.ReadLine());
-                    if (n >= 18)
+                case 'MALE':
+                    Console.WriteLine("Enter Age:");
+                    int age = Convert.ToInt32(Console.ReadLine());
+                    if (age >= 18)
                     {
                         Console.WriteLine(" The male is adult ");
                     }
@@ -16,8 +16,8 @@
                         Console.WriteLine(" The male is a minor ");
                     }
                     break;
-                case 'F':
-                    Console.WriteLine("Age is:");
+                case 'FEMALE':
+                    Console.WriteLine("Enter Age:");
                     int f = Convert.ToInt32(Console.ReadLine());
                     if (f >= 16)
                     {
