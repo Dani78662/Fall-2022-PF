@@ -14,7 +14,7 @@ namespace ConsoleApp11
             double s, kms, ans;
             Console.WriteLine("Enter speed in Miles");
             s = Convert.ToInt32(Console.ReadLine());
-            ans = mile * 1.609/3600;
+            ans = s * 1.609/3600;
             
             kms = ans;
             Console.WriteLine("Speed in KiloMeter:" + kms);
