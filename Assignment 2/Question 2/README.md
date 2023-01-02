@@ -8,25 +8,22 @@ Print "Enter number"
 Read input-----> n
 
 
-Print "Enter Sum"
-
-
 Sum=0
 
 
-i=0
+if n%i==0
 
 
-Sum<----Sum + n
+Sum<----Sum + i
 
 
-If n % s = 1
+If sum==n 
 
 
 Print "Perfect number"
 
 
-Else n % s = 0
+Else 
 
 
 Print "Not Perfect number"
