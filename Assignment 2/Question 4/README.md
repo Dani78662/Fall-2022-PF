@@ -11,7 +11,7 @@ Read input----> n
 for i<=n , i++
 
 
-If i != j && i % j==0
+If n==2
 
 
 Print "Twin Prime numbers"
